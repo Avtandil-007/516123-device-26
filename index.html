@@ -6,17 +6,131 @@
   </head>
   <body>
 	<!-- хедер -->
-    <head class="main-header">
+    <header class="main-header">
+    	<!-- скрытый заголовок -->
+    	<h1 class="visually-hidden">Интернет-магазин гаджетов Device</h1>
+    	<!-- логотип -->
+    	<a href="" class="main-header-logo">
+    		<img src="https://via.placeholder.com/150x100" alt="Лготип магазина Device">
+    	</a>
+
     	<nav class="main-navigation">
-    		<a href="" class="main-header-logo">
-    			<img src="https://via.placeholder.com/150x100" alt="Лготип магазина Device">
-    		</a>
-    		<ul class="-list">
-    			
+    		<!-- пользовательская навигация -->
+    		<ul class="main-navigation_user-list">
+    			<li class="main-navigation__user-item">
+    				<!-- поле поиска -->
+    				<input class="main-navigation__search" type="search" name="search" placeholder="Поиск по сайту">
+    			</li>
+				<li class="main-navigation__user-item">
+					<a href="" class="main-navigation__enter">Войти</a>
+				</li>
+				<li class="main-navigation__user-item">
+					<a href="" class="main-navigation__compare">Сравнить</a>
+				</li>
+				<li class="main-navigation__user-item">
+					<a href="" class="main-navigation__basket">Корзина</a>
+				</li>
+    		</ul>
+    		<!-- общая навигация  -->
+    		<ul class="main-navigation__general-list">
+    			<li class="main-navigation__general-item">
+    				<!-- при клике будет выпадать список -->
+    				<a href="" class="main-navigation__ctalog">Каталог товаров</a>
+    				<!-- выпадающий список -->
+    				<ul>
+    					<li></li>
+    					<li></li>
+    					<li></li>
+    				</ul>
+    			</li>
+    			<li class="main-navigation__general-item">
+    				<a href="" class="main-navigation__delivery">Доставка</a>
+    			</li>
+    			<li class="main-navigation__general-item">
+    				<a href="" class="main-navigation__warranty">Гарантия</a>
+    			</li>
+    			<li class="main-navigation__general-item">
+    				<a href="" class="main-navigation__contacts">Контакты</a>
+    			</li>
     		</ul>
     	</nav>
-    	
-    </head>
+    </header>
+    <!-- основное содержание страницы -->
+    <main class="main-content">
+    	<!-- блок о нас -->
+    	<section class="about-us">
+    		<h2>О нас</h2>
+    		<p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+    		<p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
+    		<ul class="about-us__delivery-list">
+    			<li class="about-us__delivery-item">Деловые Линии</li>
+    			<li class="about-us__delivery-item">Автотрейдинг</li>
+    			<li class="about-us__delivery-item">ЖелДорЭкспедиция</li>
+    		</ul>
+    		<a href="about-us-link">Подробнее о нас</a>
+    	</section>
+		<!-- блок контакты -->
+		<section class="contacts">
+			<h2>Контакты</h2>
+			<p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
+			<!-- карта -->
+			<a href="" class="contacts__map">
+				<img src="https://via.placeholder.com/150x100" alt="Карта проезда">
+			</a>
+			<!-- обратная связь -->
+			<a href="" class="contacts__feedback">Напишите нам</a>
+		</section>
+    </main>
+    <!-- футер -->
+	<footer class="main-footer">
+		<!-- логотип футера -->
+		<a href="" class="main-footer-logo">
+    		<img src="https://via.placeholder.com/150x100" alt="Лготип магазина Device">
+    	</a>
+    	<!-- пользовательская навигация подвала -->
+    	<ul class="footer-navigation_user-list">
+			<li class="footer-navigation__user-item">
+				<a href="" class="main-navigation__enter">Войти</a>
+			</li>
+			<li class="footer-navigation__user-item">
+				<a href="" class="main-navigation__compare">Сравнить</a>
+			</li>
+			<li class="footer-navigation__user-item">
+				<a href="" class="main-navigation__basket">Корзина</a>
+			</li>
+		</ul>
+		<!-- основная навигация -->
 
+    	<ul class="footer-navigation__general-list">
+    		<li class="footer-navigation__general-item">
+    			<!-- пусть тоже открывает карту -->
+    			<a href="" class="footer-navigation__address">г. Москва, ул. Строителей, 15</a>
+    		</li>
+			<li class="footer-navigation__general-item">
+				<a href="" class="footer-navigation__delivery">Доставка</a>
+			</li>
+			<li class="footer-navigation__general-item">
+				<a href="" class="footer-navigation__warranty">Гарантия</a>
+			</li>
+			<li class="footer-navigation__general-item">
+				<a href="" class="footer-navigation__contacts">Контакты</a>
+			</li>
+			<li class="footer-navigation__general-item">
+				<a href="tel:+74954959595" class="footer-navigation__phone-number">Тел.: +7 (495) 495-95-95</a>
+			</li>
+		</ul>
+		<ul>
+			<li><a href="">Фейсбук</a></li>
+			<li><a href="">Инстаграм</a></li>
+			<li><a href="">Твиттер</a></li>
+		</ul>
+		<p class="footer-copyright">
+			<!-- подпись-скрыть -->
+			<span>Разработанно:</span>
+			<a href="">
+				<img src="https://via.placeholder.com/150x100" alt="HTML Academy">
+			</a> 
+		</p>	
+	</footer>
   </body>
 </html>
